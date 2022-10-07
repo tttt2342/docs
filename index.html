@@ -37,7 +37,7 @@
 </head>
 <body>
 	<script>
-		var password="122751"
+		var password="";
 		password=prompt('请输入密码(只给然然看哦！):','');
 		function custom_close()
 		{
@@ -45,7 +45,7 @@
 		window.open('','_self');
 		window.close();
 		}
-		if (password !='122751')
+		if ((password !='122751') || (password !='511227'))
 		{
 		custom_close();
 		window.location.href='about:blank';
